@@ -1,0 +1,56 @@
+Combos
+* X...236S RRC > 66 j2369K > jH > !j236K > 66 6[H] > 421S > 6H > !421S > 236H
+	- Universal corner 236S RRC conversion; May need to skip 421S in scaled combos vs lightweights
+- 5D6 > 6H > 6H > w421S > cS > !421S > 66 cS > 2H > 236H
+- CH 6P > fS > 236S (214D > 421S)
+- AA 4S > 236S RRC > w421H > IAD jK > jH > !421H > wj236K > jH > !j236K > 236H (214H IAD)
+- 236S YRC > 66 4S > 236S
+- 5P > 2K > 2D (214H > 421S)
+- (wj236K) > jH > !j236K > 6[H] (214H)
+- jKPH > 5P > 2K > 2D (421H)
+- CH jKPH > cS > 5H > 2D (> 236S)
+- (214P wj2369K) jH > !j236K > IAD jH > 6246S
+- (214P wj2369K) jH > !j236K > IAD jH > jump jPS > jc jPSD
+- AACH 6P > cS/fS? > jc jPSP > jc jPSD (j2369K 214D/H)
+- CH 5K > 4S > 236S RRC > w421H > 6dlIAD jKH > !421H > wj236K > jH > !j236K (> 6[H] ?)
+- (214P) !214P > jH > !214P > 2K > !214P > 5D6 > 6H > 6H > 6[H] (421H 214P)
+- AACH jH > 66 4S > 236S > RRC > w421H > IAD jH > !421H > 236H > 4S > 236S
+
+Oki
+KD?		Fish		Mix
+Throw		421H 214K	IADx2 High/Low/Throw
+Throw...236S	214K		IAD High/Low/Throw
+Throw...236S	2369K 214K	66 Low/Throw > IAD
+Throw...236S	214P 2369K	jH > IAD/Low
+X...2D		214H 421K	IADx2 jKSH/Low/Throw
+X...2D		421H 214K	IAD High/Low/Throw
+X...6[H]	214H		IAD (cross) High/Low
+X...236S	421K 214K	66 Low/Throw
+X...236S	214P 2369K	jH/66 Low/Throw
+X...236H	214P 2369K	jH > IAD/Low
+
+Pressure
+(214H) 2K > cS > 66 2P
+(214H IAD) jK > 2P > 5P
+(214P) 2K > 2H > 5D6
+
+Roundstart
+VS	Button
+RAM	6P
+JAM	dl 5H, IADB 214K
+POT	downback, IADB
+INO	IADB
+LEO	IADB, 6P, walk forward block
+MAY	IADB, 
+
+Neutral
+VS	Strat
+XXX	214D 421S/H/[H] > IAD
+POT	TK j236K
+LEO	TK j236P2 > j236K > IAD
+LEO	214H > 5H (236S)
+
+Defense
+VS	Strat
+XXX	B.Burst > 421S > TK j214H > IAD
+LEO	2H DP Punish
