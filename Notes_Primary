@@ -1,10 +1,16 @@
 Combos
-* X...236S RRC > 66 j2369K > jH > !j236K > 66 6[H] > 421S > 6H > !421S > 236H
+* X...236S RRC > 66 dl j2369K > jH > !j236K > 66 6[H] > 421S > 6H > !421S > 236H (> 4S > 236S)
 	- Universal corner 236S RRC conversion; May need to skip 421S in scaled combos vs lightweights
-- 5D6 > 6H > 6H > w421S > cS > !421S > 66 cS > 2H > 236H
+* X...236S RRC > w421H > 66 5H > !421H > 236H > 4S > 236S
+* X...236S RRC > w421H > 66 fS jc > !421H > dl j236K > jH > 236H > 4S > 236S (> 66 2K > cS RRC)
+	- Done vs Millia (https://www.youtube.com/live/ZfzAQyM9LEQ?feature=share&t=1578)
+- X...236S RRC > w421H > IAD jK > jH > !421H > wj236K > jH > !j236K > 6[H] > 236H (214H IAD)
+	- Midscreen BnB
+* 5D6 > 6H > 6H > w421S > cS > !421S > 66 cS > 2H > 236H 
+* 236S YRC > 236H (> 6H ) or (> 4S > 236S)
+	- Best to worst knockdown: 236H > 6H > 236S
 - CH 6P > fS > 236S (214D > 421S)
-- AA 4S > 236S RRC > w421H > IAD jK > jH > !421H > wj236K > jH > !j236K > 236H (214H IAD)
-- 236S YRC > 66 4S > 236S
+- Corner 236S YRC > 6[H] > 421S > 6H > !421S > 236H > 6H
 - 5P > 2K > 2D (214H > 421S)
 - (wj236K) > jH > !j236K > 6[H] (214H)
 - jKPH > 5P > 2K > 2D (421H)
@@ -15,24 +21,40 @@ Combos
 - CH 5K > 4S > 236S RRC > w421H > 6dlIAD jKH > !421H > wj236K > jH > !j236K (> 6[H] ?)
 - (214P) !214P > jH > !214P > 2K > !214P > 5D6 > 6H > 6H > 6[H] (421H 214P)
 - AACH jH > 66 4S > 236S > RRC > w421H > IAD jH > !421H > 236H > 4S > 236S
+- (214H 421S IAD) Land jKS > jc jKSD
+- AA 2S > jc jKS > jc jKSD (421S/214H)
+- AA jKPH > land jKS > jc jKSD
+	- No Oki
+- Throw > 236S 
+	- (burst safe Throw combo)
 
-Oki
-KD?		Fish		Mix
+Okizeme
+KD?		Fish		Mix/Follow up
 Throw		421H 214K	IADx2 High/Low/Throw
+Throw...6H	421H 214K	IADx2 High/Low/Throw
 Throw...236S	214K		IAD High/Low/Throw
 Throw...236S	2369K 214K	66 Low/Throw > IAD
 Throw...236S	214P 2369K	jH > IAD/Low
-X...2D		214H 421K	IADx2 jKSH/Low/Throw
+Throw...236S	214P 2369P	jK > Pressure
+X...2D		214H 421S	IADx2 jKSH/Low/Throw
 X...2D		421H 214K	IAD High/Low/Throw
+X...2D		214P 2369K	jH > IAD/Low 
+X...2D		214H		9 wjS (cross) High/Low
+6H		421H		236S YRC 214P 2369K jH/66 Meaty > Pressure
 X...6[H]	214H		IAD (cross) High/Low
 X...236S	421K 214K	66 Low/Throw
 X...236S	214P 2369K	jH/66 Low/Throw
+X...236S	66 214P		Meaty 2K/5P > IAD High/Low/Throw
 X...236H	214P 2369K	jH > IAD/Low
+CH 6P		214H		9 wjS (same side) High/Low
+AACH 6P		421S 214H	No Meaty
 
 Pressure
 (214H) 2K > cS > 66 2P
 (214H IAD) jK > 2P > 5P
 (214P) 2K > 2H > 5D6
+- Use summons and YRC to cover repeated mixups
+- End with safe options (jc IADB, YRC, etc.)
 
 Roundstart
 VS	Button
@@ -42,15 +64,19 @@ POT	downback, IADB
 INO	IADB
 LEO	IADB, 6P, walk forward block
 MAY	IADB, 
+MIL	downback, backdash, dash block
 
 Neutral
 VS	Strat
 XXX	214D 421S/H/[H] > IAD
-POT	TK j236K
 LEO	TK j236P2 > j236K > IAD
 LEO	214H > 5H (236S)
+MIL	super jump button, IADB jH/jS, 421K > 214S to control space
+MIL	236P as a preemptive anti-air
+POT	TK j236K zoning
 
 Defense
 VS	Strat
 XXX	B.Burst > 421S > TK j214H > IAD
 LEO	2H DP Punish
+MIL	Mirror Midscreen Disc Oki
