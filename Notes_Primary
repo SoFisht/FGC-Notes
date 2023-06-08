@@ -1,14 +1,20 @@
 Combos
 * X...236S RRC > 66 dl j2369K > jH > !j236K > 66 6[H] > 421S > 6H > !421S > 236H (> 4S > 236S)
 	- Universal corner 236S RRC conversion; May need to skip 421S in scaled combos vs lightweights
-* X...236S RRC > w421H > 66 5H > !421H > 236H > 4S > 236S
-* X...236S RRC > w421H > 66 fS jc > !421H > dl j236K > jH > 236H > 4S > 236S (> 66 2K > cS RRC)
-	- Done vs Millia (https://www.youtube.com/live/ZfzAQyM9LEQ?feature=share&t=1578)
-- X...236S RRC > w421H > IAD jK > jH > !421H > wj236K > jH > !j236K > 6[H] > 236H (214H IAD)
-	- Midscreen BnB
-* 5D6 > 6H > 6H > w421S > cS > !421S > 66 cS > 2H > 236H 
-* 236S YRC > 236H (> 6H ) or (> 4S > 236S)
+* X...236S RRC > w421H > 66 5H > !421H > 236H > 2K > 4S > 236S
+* X...236S RRC > w421H > 66 fS jc > !421H > dl j236K > jH > 236H > 4S > 236S
+	- Ex: https://www.youtube.com/live/ZfzAQyM9LEQ?feature=share&t=1578
+* X...236S RRC > 66 6[H] > 421H > 66 5H > 421H! > 66 6[HS] > 421H > 66 5H > 421H! > 66 6[H] > dl 421S > 6H/4S > 421S! > 236H
+	- Min. 4 hits before RRC
+	- Ex: https://www.youtube.com/watch?v=Dz5OoWQzwCY
+	- Works on everyone but MAY, KY, LEO, ELPH, SIN, RAV, ZATO.
+- X...236S RRC > w421H > IAD jK > jH > !421H > wj236K > jH > !j236K (> 66 6[H]) > 236H
+	- Midscreen universal BnB; 66 6[H] can be tight depending on scaling/character/range.
+	- Ex: https://www.youtube.com/watch?v=qZLamfd7pn8
+* 236S YRC > 236H (> 6H or [4S > 236S])
 	- Best to worst knockdown: 236H > 6H > 236S
+* 5D6 > 6H > 6H > w421S > cS > !421S > 66 cS > 2H > 236H 
+
 - CH 6P > fS > 236S (214D > 421S)
 - Corner 236S YRC > 6[H] > 421S > 6H > !421S > 236H > 6H
 - 5P > 2K > 2D (214H > 421S)
