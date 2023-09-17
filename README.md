@@ -1,6 +1,6 @@
 # FGC Notes
 Quick Reference Fighting Game Character Notes & VOD Review
 
-This Repository houses a collection of FGC tech in very brief notation designed to be used as a checklist or quick reference for play.
+This Repository houses my collection of FGC tech collected via VOD Review & quick reference notes.
 
-Currently, there is only info for Guilty Gear Xrd Rev2.1 Dizzy, with future characters to come.
+Organized by Game/Character/<VOD Review M.YY> or <REF Tech>
