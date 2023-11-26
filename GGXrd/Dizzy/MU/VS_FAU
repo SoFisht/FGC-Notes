@@ -1,8 +1,13 @@
-WU:
-Reversals:
-System Data:
+WU: 29d/25u
+Reversals: 5D (1-11f Strike); Super (11+1f)
+System Data: Med Weight (air hurtbox is jank); Crawl goes under 214H
 
 ///Round Start
+* 2S beats 2P, 2P beats other roundstart
+* IADB is punishable if chased
+* Neutral jump and react
+* Backdash
+
 
 ///Neutral
 *Full Screen
@@ -10,7 +15,14 @@ System Data:
 *Mid Screen
 
 *Scramble
+  - 2S/6P pokes/j2K, 2S hits lower but is less stable
+  - Respect 2H by jumping or blocking low
 
 ///Offense
+  - 214H can't be jumped, but can be Crawled
+    * Use dl air dash to catch, or empty low
 
 ///Defense
+  - Lows are more punishing than highs
+  - Fuzzy block 6H
+  - IB TK j2K resets
