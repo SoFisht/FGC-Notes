@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:#333333">
+<script>
+function ColorText(){
+	const str = document.getElementById("textFromUser").value;
+	const regex = [
+	  /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|A|])(\bd.A+\b|\bd.[0-9]+A+\b|\bj.A+\b|\bc.A+\b|\bf.A+\b|\bj.[0-9]+A+\b(?!})|\bfl.[0-9]+A+\b(?!})|\[[0-9]+\][0-9]+A\b(?!})|\b[0-9]+\[A\](?!})|\bj.[0-9]+\[A\](?!})|[0-9]+A+\b(?!})|A+\b(?=\+)|\b(?<=[\`\~\/])A\b(?!\")|\b(?<=[\+\'\~])\bA+\b(?!\"))(?!\.[A-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|B|])(\bd.B+\b|\bd.[0-9]+B+\b|\bj.B+\b|\bc.B+\b|\bf.B+\b|\bj.[0-9]+B+\b(?!})|\bfl.[0-9]+B+\b(?!})|\[[0-9]+\][0-9]+B\b(?!})|\b[0-9]+\[B\](?!})|\bj.[0-9]+\[B\](?!})|[0-9]+B+\b(?!})|B+\b(?=\+)|\b(?<=[\`\~\/])B\b(?!\")|\b(?<=[\+\'\~])\bB+\b(?!\"))(?!\.[B-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|C|])(\bd.C+\b|\bd.[0-9]+C+\b|\bj.C+\b|\bc.C+\b|\bf.C+\b|\bj.[0-9]+C+\b(?!})|\bfl.[0-9]+C+\b(?!})|\[[0-9]+\][0-9]+C\b(?!})|\b[0-9]+\[C\](?!})|\bj.[0-9]+\[C\](?!})|[0-9]+C+\b(?!})|C+\b(?=\+)|\b(?<=[\`\~\/])C\b(?!\")|\b(?<=[\+\'\~])\bC+\b(?!\"))(?!\.[C-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|D|])(\bd.D+\b|\bd.[0-9]+D+\b|\bj.D+\b|\bc.D+\b|\bf.D+\b|\bj.[0-9]+D+\b(?!})|\bfl.[0-9]+D+\b(?!})|\[[0-9]+\][0-9]+D\b(?!})|\b[0-9]+\[D\](?!})|\bj.[0-9]+\[D\](?!})|[0-9]+D+\b(?!})|D+\b(?=\+)|\b(?<=[\`\~\/])D\b(?!\")|\b(?<=[\+\'\~])\bD+\b(?!\"))(?!\.[D-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|E|])(\bd.E+\b|\bd.[0-9]+E+\b|\bj.E+\b|\bc.E+\b|\bf.E+\b|\bj.[0-9]+E+\b(?!})|\bfl.[0-9]+E+\b(?!})|\[[0-9]+\][0-9]+E\b(?!})|\b[0-9]+\[E\](?!})|\bj.[0-9]+\[E\](?!})|[0-9]+E+\b(?!})|E+\b(?=\+)|\b(?<=[\`\~\/])E\b(?!\")|\b(?<=[\+\'\~])\bE+\b(?!\"))(?!\.[E-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|P|])(\bd.P+\b|\bd.[0-9]+P+\b|\bj.P+\b|\bc.P+\b|\bf.P+\b|\bj.[0-9]+P+\b(?!})|\bfl.[0-9]+P+\b(?!})|\[[0-9]+\][0-9]+P\b(?!})|\b[0-9]+\[P\](?!})|\bj.[0-9]+\[P\](?!})|[0-9]+P+\b(?!})|P+\b(?=\+)|\b(?<=[\`\~\/])P\b(?!\")|\b(?<=[\+\'\~])\bP+\b(?!\"))(?!\.[P-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|K|])(\bd.K+\b|\bd.[0-9]+K+\b|\bj.K+\b|\bc.K+\b|\bf.K+\b|\bj.[0-9]+K+\b(?!})|\bfl.[0-9]+K+\b(?!})|\[[0-9]+\][0-9]+K\b(?!})|\b[0-9]+\[K\](?!})|\bj.[0-9]+\[K\](?!})|[0-9]+K+\b(?!})|K+\b(?=\+)|\b(?<=[\`\~\/])K\b(?!\")|\b(?<=[\+\'\~])\bK+\b(?!\"))(?!\.[K-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|S|])(\bd.S+\b|\bd.[0-9]+S+\b|\bj.S+\b|\bc.S+\b|\bf.S+\b|\bj.[0-9]+S+\b(?!})|\bfl.[0-9]+S+\b(?!})|\[[0-9]+\][0-9]+S\b(?!})|\b[0-9]+\[S\](?!})|\bj.[0-9]+\[S\](?!})|[0-9]+S+\b(?!})|S+\b(?=\+)|\b(?<=[\`\~\/])S\b(?!\")|\b(?<=[\+\'\~])\bS+\b(?!\"))(?!\.[S-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|H|])(\bd.H+\b|\bd.[0-9]+H+\b|\bj.H+\b|\bc.H+\b|\bf.H+\b|\bj.[0-9]+H+\b(?!})|\bfl.[0-9]+H+\b(?!})|\[[0-9]+\][0-9]+H\b(?!})|\b[0-9]+\[H\](?!})|\bj.[0-9]+\[H\](?!})|[0-9]+H+\b(?!})|H+\b(?=\+)|\b(?<=[\`\~\/])H\b(?!\")|\b(?<=[\+\'\~])\bH+\b(?!\"))(?!\.[H-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|L|])(\bd.L+\b|\bd.[0-9]+L+\b|\bj.L+\b|\bc.L+\b|\bf.L+\b|\bj.[0-9]+L+\b(?!})|\bfl.[0-9]+L+\b(?!})|\[[0-9]+\][0-9]+L\b(?!})|\b[0-9]+\[L\](?!})|\bj.[0-9]+\[L\](?!})|[0-9]+L+\b(?!})|L+\b(?=\+)|\b(?<=[\`\~\/])L\b(?!\")|\b(?<=[\+\'\~])\bL+\b(?!\"))(?!\.[L-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|M|])(\bd.M+\b|\bd.[0-9]+M+\b|\bj.M+\b|\bc.M+\b|\bf.M+\b|\bj.[0-9]+M+\b(?!})|\bfl.[0-9]+M+\b(?!})|\[[0-9]+\][0-9]+M\b(?!})|\b[0-9]+\[M\](?!})|\bj.[0-9]+\[M\](?!})|[0-9]+M+\b(?!})|M+\b(?=\+)|\b(?<=[\`\~\/])M\b(?!\")|\b(?<=[\+\'\~])\bM+\b(?!\"))(?!\.[M-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|U|])(\bd.U+\b|\bd.[0-9]+U+\b|\bj.U+\b|\bc.U+\b|\bf.U+\b|\bj.[0-9]+U+\b(?!})|\bfl.[0-9]+U+\b(?!})|\[[0-9]+\][0-9]+U\b(?!})|\b[0-9]+\[U\](?!})|\bj.[0-9]+\[U\](?!})|[0-9]+U+\b(?!})|U+\b(?=\+)|\b(?<=[\`\~\/])U\b(?!\")|\b(?<=[\+\'\~])\bU+\b(?!\"))(?!\.[U-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|MS|])(\bd.MS+\b|\bd.[0-9]+MS+\b|\bj.MS+\b|\bc.MS+\b|\bf.MS+\b|\bj.[0-9]+MS+\b(?!})|\bfl.[0-9]+MS+\b(?!})|\[[0-9]+\][0-9]+MS\b(?!})|\b[0-9]+\[MS\](?!})|[0-9]+MS+\b(?!})|MS+\b(?=\+)|\b(?<=[\`\~\/])MS\b(?!\")|\b(?<=[\+\'\~])\bMS+\b(?!\"))(?!\.[MS-z]+)(?![\"\}}])/gm
+	, /(?<![\]\#\"\%\=\{{clr|[0-9]|\{{clr|AS|])(\bd.AS+\b|\bd.[0-9]+AS+\b|\bj.AS+\b|\bc.AS+\b|\bf.AS+\b|\bj.[0-9]+AS+\b(?!})|\bfl.[0-9]+AS+\b(?!})|\[[0-9]+\][0-9]+AS\b(?!})|\b[0-9]+\[AS\](?!})|[0-9]+AS+\b(?!})|AS+\b(?=\+)|\b(?<=[\`\~\/])AS\b(?!\")|\b(?<=[\+\'\~])\bAS+\b(?!\"))(?!\.[AS-z]+)(?![\"\}}])/gm
+	];
+	const subst = [
+		`{{clr|A|$1}}`  ,
+		`{{clr|B|$1}}`  ,
+		`{{clr|C|$1}}`  ,
+		`{{clr|D|$1}}`  ,
+		`{{clr|E|$1}}`  ,
+		`{{clr|P|$1}}`  ,
+		`{{clr|K|$1}}`  ,
+		`{{clr|S|$1}}`  ,
+		`{{clr|H|$1}}`  ,
+		`{{clr|L|$1}}`  ,
+		`{{clr|M|$1}}`  ,
+		`{{clr|U|$1}}`  ,
+		`{{clr|MS|$1}}` ,
+		`{{clr|AS|$1}}`
+	];
+
+	var result=str;
+	for (i = 0; i < regex.length; i++) { result = result.replace(regex[i], subst[i]);}
+	navigator.clipboard.writeText(result);
+	document.getElementById("textFromUser").value = "";
+}
+</script>
+<h1 style="white-space: pre-wrap; color:white"><span style="font-size:50px">This is to convert Dustloop pages from<br>non-colored inputs to colored inputs.</span><br>
+Copy and paste the text in here, click "Convert Text", and the color coded text will automatically be saved to your clipboard. Just paste it over the non-colored text and save changes.
+
+Remember: This will cover MOST cases, but not all. Before saving changes, manually review it with "Show Preview".
+
+This will work for: BBCF, BBTag, DBFZ, DNFD, GBVS, All GG, HNK, P4A/U.</h1>
+
+<textarea id="textFromUser" style="white-space: pre-wrap" rows="20" cols="80"></textarea><br>
+<button id="TextFromUserButton" onclick="ColorText()">Convert Text</button>
+</body>
+</html>
