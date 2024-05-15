@@ -42,7 +42,6 @@ AVOID 421H vs 5D YRC
 
 ///Defense
 Block low by default
-Fuzzy block 6H/j2K
 IB/Air Throw TK j2K resets
 fS or jump Item resets
 FD Ground strings
