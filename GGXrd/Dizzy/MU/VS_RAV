@@ -15,8 +15,8 @@ Avoid 421S
 
 *Mid Screen
 Vs Stance:
- - Throw if 0 bar/Close
- - 421H/etc. if 25% bar/Far
+ - If 0%/close:Throw
+ - If 25%/far: Vary Projectile Timing (j236K/214K/421[H])
  - Empty IAD > Throw
 2D/5H Dash ins
 jS Air to Air
@@ -27,6 +27,7 @@ After cmdGrab whiff, falling jH
 2D Dash
 4S/7 jS to catch jump
 Punish j2K Landing Recovery on whiff
+Rising jD/jS/jP or 2S Anti-Air
 
 ///Offense
 214K (slight delay)
