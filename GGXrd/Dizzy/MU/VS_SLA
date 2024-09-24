@@ -1,16 +1,35 @@
-WU:
-Reversals:
+WU: 20d/26u (MIXED)
+Reversals: BDC, 7-11f Supers
 System Data:
 
 ///Round Start
+Hold 3 layer 1
+  - Jump out if they back off
+  - Punish if they do something risky
 
 ///Neutral
 *Full Screen
+H Fish > 66
+  - On jump, Antiair
+  - On block, Repeat
+When Slayer jumping > S Fish
+When Slayer Dandy > check with 2K or run
 
 *Mid Screen
+Avoid RPS, play keepaway
 
 *Scramble
+Block, look for jump out and run
 
 ///Offense
+dl H Fish > 66 2K 
+If not BDCing, 214K IAD
 
 ///Defense
+*Mid Screen
+Vs Crossup Oki:
+  - 66 covers both same side low and Dandy H (crossup)
+Vs Bite:
+  - FD Tech out holding 4
+  -
+
